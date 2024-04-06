@@ -19,10 +19,11 @@ void setup()
   pinMode(GLED, OUTPUT); //Set Green LED as Output
   pinMode(RLED, OUTPUT); //Set Red LED as Output
   pinMode(BLED, OUTPUT); //Set Blue LED as Output
+  pinMode(speakerPin, OUTPUT); //Set speaker as Output
   pinMode(BUTTON1, INPUT); //Set button as input
   pinMode(BUTTON2, INPUT); //Set button as input
   pinMode(BUTTON3, INPUT); //Set button as input
-  pinMode(speakerPin, OUTPUT);
+  
 }
 
 int brightness()
